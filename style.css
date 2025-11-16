@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f6f2f7;
+    margin: 0;
+    padding: 40px 0;
+}
+
+.title {
+    background: #d870a3;
+    padding: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    border-radius: 8px;
+    width: 80%;
+    margin: 0 auto 40px auto;
+}
+
+/* Flex container */
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+/* Flex items using flex-grow and flex-basis */
+.card {
+    background: black;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    flex-grow: 1;          /* allows cards to stretch */
+    flex-basis: 250px;     /* base width */
+    max-width: 300px;
+}
+
+.card ul {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #c8c8c8;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.card ul li {
+    margin: 10px 0;
+    list-style: none;
+    color: #d581ff;
+}
+
+.disabled {
+    color: #777;
+}
