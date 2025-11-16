@@ -10,3 +10,4 @@ This project demonstrates the use of `flex-grow`, `flex-basis`, `flex-wrap`, and
 - Easy to customize
 
 ### Live Demo
+https://gnanesh-sys.github.io/Flex-task-image-gallery-2/
